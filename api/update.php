@@ -25,7 +25,7 @@ $item->designation = $data->designation;
 $item->created = date('Y-m-d H:i:s');
 
 if ($item->updateEmployee()) {
-  echo json_encode("Employee data updated.");
+  echo json_encode("Dados atualizados.");
 } else {
-  echo json_encode("Data could not be updated");
+  echo json_encode("Dados não podem ser atualizados");
 }
